@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
 
     </head>
@@ -15,6 +16,7 @@
                 <a href="index.html"><img src="Images/Academy root LOGO white .png"></a>
 
                 <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
                     
                     <ul>
                         
@@ -36,8 +38,24 @@
 
                     </ul>
                 </div>
-                
+                     <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
             </nav>
+
+
+            <script>
+
+                var navLinks = document.getElementById("navLinks")
+            
+                function showmenu(){
+                    navLinks.style.right = "0";
+                }
+            
+                function hidemenu(){
+                    navLinks.style.right = "-200";
+                }
+            
+            </script>
+
 
     </body>
 </html>
