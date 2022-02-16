@@ -12,6 +12,9 @@
     </head>
     <body>
         <section class="header">
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">⌃</button>
+
             <nav>
                 <a href="index.html"><img src="Images/Academy root LOGO white .png"></a>
 
@@ -20,7 +23,6 @@
 
                     <ul>
                         
-
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT US</a></li>
                         <li><a href="">QUIZ LAB ▾</a>
@@ -34,14 +36,34 @@
                         <li><a href="">LIBRARIES</a></li>
                         <li><a href="">CONTACT US</a></li>
                         
-
-
                     </ul>
                 </div>
                      <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
             </nav>
+        </section>
 
 
+<!-- 2nd section -->
+        <section>
+
+        </section>
+
+<!-- footer -->
+        <section class="footer">
+
+            <h3>About us</h3>
+            <p>Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+        <div class="icons">
+           <i class="fab fa-facebook" aria-hidden="true"></i>
+           <i class="fab fa-twitter" aria-hidden="true"></i>
+           <i class="fab fa-instagram" aria-hidden="true"></i>
+           <i class="fab fa-linkedin" aria-hidden="true"></i>
+       </div>
+       <p>bla bla bla <i class="far fa-heart" aria-hidden="true"></i> bla bla bla </p>
+
+        </section>
+
+            <!-- toggle menu in mobile view and back to top button -->
             <script>
 
                 var navLinks = document.getElementById("navLinks")
@@ -52,6 +74,26 @@
             
                 function hidemenu(){
                     navLinks.style.right = "-200";
+                }
+
+
+
+                mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() 
+                {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+                  } else {
+                mybutton.style.display = "none";
+                  }
+                }
+
+
+                function topFunction() {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
                 }
             
             </script>
