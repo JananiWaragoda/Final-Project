@@ -189,7 +189,7 @@ nav .fa{
 /* footer */
 
 .footer{
-    background-color: rgba(97, 41, 131, 0.883);
+    background-color: rgba(41, 121, 131, 0.883);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -204,12 +204,12 @@ nav .fa{
 }
 
 .footer p{
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .icons{
-color: rgb(191, 0, 255);
-font-size: 20px;
+color: rgb(0, 26, 255);
+font-size: 30px;
 }
 
 
