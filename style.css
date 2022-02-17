@@ -168,7 +168,7 @@ nav .fa{
     z-index: 100; 
     border: none;
     outline: none; 
-    background-color: rgb(132, 31, 182); 
+    background-color: rgba(0, 0, 0, 0.255); 
     color: white;
     cursor: pointer;
     padding: 10px;
