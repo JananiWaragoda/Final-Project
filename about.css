@@ -188,16 +188,19 @@ nav .fa{
 }
 
 .container{
-width: 80%;
+width: 100%;
 display: block;
 margin: auto;
-padding-top: 100px;
+padding-top: 6px;
+padding-left: 100px;
 }
 
 .content-section .title{
     text-align: left;
     font-size: 19px;
+   
 }
+
 
 .content-section{
 float: left;
@@ -207,11 +210,12 @@ width: 55%
 .content-section.title{
 text-transform: uppercase;
 font-size: 28px;
+
 }
 .content-section .content h3{
 margin-top: 20px;
 color: #5d5d5d;
-font-size: 21px;
+font-size: 40px;
 }
 .content-section .content p{
 margin-top: 10px;
@@ -221,16 +225,78 @@ line-height: 1.5;
 text-align: justify;
 }
 
-.image-section{
-float: right;
-width: 40%;
-margin-right: 30px;
+
+
+.header h1{
+
+   font-size: 100px ;
+   color: gray;
 }
-.image-section img{
-width: 400px;
-height: auto;
-margin-top: 60px;
-margin-left: 50px;
+.header p{
+    font-size:50px ;
+    
 }
 
+h1.color{
+color:black;
+font-size:40px ;
+
+}
+
+p.align{
+    text-align: justify;
+    font-size: 30px;   
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 20px; 
+    width: 50px;
+    z-index: 100; 
+    border: none;
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.255); 
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 24px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(57, 53, 58); 
+    transition: 0.8s;
+
+  }
+
+
+
+/* footer */
+
+.footer{
+    background-color: rgba(41, 121, 131, 0.883);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.footer p{
+    font-size: 24px;
+}
+
+.icons{
+color: rgb(0, 26, 255);
+font-size: 30px;
+}
 
