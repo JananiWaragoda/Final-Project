@@ -235,6 +235,19 @@ display: block;
     }
 }
 
+.technologies{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.technologies h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
 /* .layer
 {
     background: transparent;
@@ -281,6 +294,8 @@ flex-basis: 30%;
 
 
 /* footer */
+
+
 
 .footer{
     background-color: rgba(41, 121, 131, 0.883);
