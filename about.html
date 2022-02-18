@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
 </head>
 
@@ -42,26 +42,76 @@
                 </ul>
             </div>
                  <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+
         </nav>
+
+        <div class="title">
+            <h1 align="center">About Us</h1>
+            <p align="center">"Together we all discover, learn,grow and succeed.."</p>
+
+    </div>
+
     </section>
 
-    <div class="section">
-        <div class="container">
-            <div class="content-section">
-                <div class="title">
-                <h1>About Us</h1>
-            </div>
+    <script>
 
-            <div class="content">
+        var navLinks = document.getElementById("navLinks")
+    
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+    
+        function hidemenu(){
+            navLinks.style.right = "-200";
+        }
 
-                <h3>Our Mission </h3>
-                <p> Contribute to the sustainable development of education by imparting knowledge to children of all walks of life around the world and enhancing their knowledge through the provision of online quizzes and related books. </p>
-                
-                <h3>Our Vision</h3>
-                <p>"Together we all discover, learn,grow and succeed"</p>
 
-            </div>
-        </div>
-    </div>
+
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+        {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+          } else {
+        mybutton.style.display = "none";
+          }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0; 
+        }
+    
+    </script>
+
+    
+    <h1 class="color">Our Mission </h1>
+             
+    <p class="align"> Contribute to the sustainable development of education by  imparting knowledge to <br/>the  children of all walks of life around the world and enhancing their knowledge <br/> through the provision of online quizzes and related books. </p>
+    
+    
+        
+
+    
+
+    <!-- footer -->
+    <section class="footer">
+
+        <h1>Academy Root</h1>
+        <p>A Great Place To Learn</p>
+    <div class="icons">
+       <i class="fab fa-facebook" aria-hidden="true"></i>
+       <i class="fab fa-twitter" aria-hidden="true"></i>
+       <i class="fab fa-instagram" aria-hidden="true"></i>
+       <i class="fab fa-linkedin" aria-hidden="true"></i>
+   </div>
+   <p>AcademyRoot<i class="far fa-copyright" aria-hidden="true"></i><br>All Rights Reserved </p>
+
+    </section>
+
+   
 </body>
 </html>
