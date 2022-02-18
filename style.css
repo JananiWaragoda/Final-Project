@@ -183,6 +183,85 @@ nav .fa{
 
   }
 
+  /* EBooks */
+
+  .row
+  {
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+.column
+{
+  flex-basis: 30%;
+  box-sizing: border-box;
+  background: #222324;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px 28px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.column img
+{
+  width: 100%;
+  display: block;
+}
+
+  .row > .column 
+  {
+    padding: 5 8px;
+    flex-basis: 30%;
+    margin-left: 60px;
+    position: relative;
+    text-align: center;
+  }
+
+  /* .layer
+  {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover
+{
+    background: rgba(233, 66, 37, 0.7);
+    cursor: pointer;
+
+}
+.layer h3
+{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.7s;
+}
+.layer:hover h3
+{
+bottom: 49%;
+opacity: 1;
+} */
+  
+  .row:after 
+  {
+    content: "";
+flex-basis: 30%;
+    clear: both;
+    
+  }
 
 
 
