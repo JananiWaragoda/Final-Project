@@ -175,53 +175,66 @@ nav .fa{
     padding: 10px;
     border-radius: 12px;
     font-size: 24px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: rgb(57, 53, 58); 
     transition: 0.8s;
-
-  }
+}
 
   /* EBooks */
 
-  .row
-  {
-    margin:10px;
+.Ebooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.Ebooks h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.row
+{
+    margin:20px;
     display: flex;
     justify-content: space-between;
-
-  }
+}
 
 .column
 {
-  flex-basis: 30%;
-  box-sizing: border-box;
-  background: #222324;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  padding: 20px 28px;
-  transition: 0.5s;
-  overflow: hidden;
+flex-basis: 30%;
+box-sizing: border-box;
+background: #222324;
+border-radius: 10px;
+margin-bottom: 30px;
+padding: 20px 28px;
+transition: 0.5s;
+
 }
 
 .column img
 {
-  width: 100%;
-  display: block;
+width: 100%;
+display: block;
 }
 
-  .row > .column 
-  {
+.row > .column 
+{
     padding: 5 8px;
     flex-basis: 30%;
     margin-left: 60px;
     position: relative;
     text-align: center;
-  }
+}
 
-  /* .layer
-  {
+.column:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* .layer
+{
     background: transparent;
     height: 100%;
     width: 100%;
@@ -255,13 +268,13 @@ bottom: 49%;
 opacity: 1;
 } */
   
-  .row:after 
-  {
+.row:after 
+{
     content: "";
 flex-basis: 30%;
     clear: both;
     
-  }
+}
 
 
 
