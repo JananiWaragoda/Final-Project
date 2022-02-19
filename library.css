@@ -102,7 +102,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 600px)
+@media(max-width: 950px)
 {
     nav img{
         width: 235px; 
@@ -215,7 +215,7 @@ display: block;
     box-shadow: 0 0 20px 12px rgba(255, 255, 255, 0.281);
 }
 
-@media(max-width: 600px){
+@media(max-width: 750px){
     .row{
         flex-direction: column;
     }
@@ -226,3 +226,31 @@ display: block;
     color: #470006;
     padding-left: 20px;
 }
+
+/* footer */
+
+.footer{
+    background-color: rgba(41, 121, 131, 0.883);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.footer p{
+    font-size: 24px;
+}
+
+.icons{
+color: rgb(0, 26, 255);
+font-size: 30px;
+}
+
+
