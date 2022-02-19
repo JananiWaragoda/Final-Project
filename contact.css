@@ -182,23 +182,72 @@ nav .fa{
     transition: 0.8s;
 
   }
- 
- * {
-      margin: 0;
-      padding: 0;
-      box-sizing:boder-box;
-      
-}
-  body,
+
   input,
   textarea{font-family:"popins",sans-serif;
 }
+
 .container{
     position: relative;
     width: 100%;
     min-height:100vh;
-    padding: 2rem;
-    background-color: grey;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
+.form{
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+  background-color: rgba(211, 212, 211, 0.308);
+  border-radius: 4px ;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  overflow: hidden;
+  grid-template-columns: repeat(2,1fr); 
+  display: grid;
+}
+
+.contact-info{
+    background-color: aqua;
+    position: relative;
+}
+
+.contact-fome{
+    background-color: #130047;
+    position: relative;
+}
+
+.circle{
+
+border-radius: 50%;
+background: linear-gradient(135deg,transparent 20% );
+position: absolute;
+
+}
+
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right:-40px
+}
+.circle.tow{
+    width: 80px;
+    height: 800px;
+    top: 10px;
+    right:30px;
+}
+.contact-form::before{
+     content: "";
+     position:  absolute;
+     width:26px;
+     height: 26px;
+     background-color: red ;
+     transform: rotate(45deg);
+}
