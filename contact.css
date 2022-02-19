@@ -248,6 +248,8 @@ position: absolute;
      position:  absolute;
      width:26px;
      height: 26px;
-     background-color: red ;
+     background-color: #1abc9c ;
      transform: rotate(45deg);
+     top :50px;
+     left: -13px;
 }
