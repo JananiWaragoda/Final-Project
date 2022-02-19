@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="library.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
@@ -44,9 +43,10 @@
                  <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
         </nav>
     </section>
-    
-    <section>
-        <h2 style="text-align:left">Computer Software Architechture</h2> 
+
+    <section class="BOOKS">
+        
+        <h1 style="text-align:left">Computer Software Architecture</h1> 
     
       </div>
       <div class="row">
@@ -67,7 +67,7 @@
       </div><br><br><br>
 
 
-      <h2 style="text-align:left">Operating Systems</h2> 
+      <h1 style="text-align:left">Operating Systems</h1> 
 
 
       <div class="row">
@@ -88,7 +88,7 @@
       </div><br><br><br>
 
 
-      <h2 style="text-align:left">Programming Langauges</h2> 
+      <h1 style="text-align:left">Programming Langauges</h1> 
 
 
       <div class="row">
@@ -124,11 +124,48 @@
         </div>
   
         </div>
+
+
       
 
 
 
     </section>
+
+     <!-- toggle menu in mobile view and back to top button -->
+     <script>
+
+        var navLinks = document.getElementById("navLinks")
+    
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+    
+        function hidemenu(){
+            navLinks.style.right = "-200";
+        }
+
+
+
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+        {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } else {
+        mybutton.style.display = "none";
+        }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0; 
+        }
+    
+    </script>
 
 </body>
 </html>
