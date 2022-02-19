@@ -182,17 +182,11 @@ nav .fa{
     transition: 0.8s;
 
   }
- 
- * {
-      margin: 0;
-      padding: 0;
-      box-sizing:boder-box;
-      
-}
-  body,
+
   input,
   textarea{font-family:"popins",sans-serif;
 }
+
 .container{
     position: relative;
     width: 100%;
@@ -205,6 +199,7 @@ nav .fa{
 
 
 }
+
 .form{
   width: 100%;
   max-width: 1000px;
@@ -214,19 +209,28 @@ nav .fa{
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   z-index: 1000; 
   overflow: hidden;
-  grid-template-columns: repeat(2,1fr ); 
+  grid-template-columns: repeat(2,1fr); 
+  display: grid;
 }
-.contact-fome {
+
+.contact-info{
+    background-color: aqua;
+    position: relative;
+}
+
+.contact-fome{
     background-color: #130047;
     position: relative;
 }
+
 .circle{
-  
- border-radius: 50%;
- background: linear-gradient(135deg,transparent 20% );
- position: absolute;
+
+border-radius: 50%;
+background: linear-gradient(135deg,transparent 20% );
+position: absolute;
 
 }
+
 .circle.one{
     width: 130px;
     height: 130px;
@@ -239,12 +243,11 @@ nav .fa{
     top: 10px;
     right:30px;
 }
-.contact-form: before{
+.contact-form::before{
      content: "";
      position:  absolute;
      width:26px;
      height: 26px;
      background-color: red ;
-     transform: rotate(45deg)
-
+     transform: rotate(45deg);
 }
