@@ -197,8 +197,22 @@ nav .fa{
     position: relative;
     width: 100%;
     min-height:100vh;
-    padding: 2rem;
-    background-color: grey;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
-
+.form{
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+  background-color: rgba(211, 212, 211, 0.308);
+  border-radius: 4px ;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  overflow: hidden;
+  grid-template-columns: repeat(2,1fr );
+}
