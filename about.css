@@ -200,7 +200,7 @@ nav .fa{
 
 h1.color{
 color:black;
-font-size:40px ;
+font-size:70px ;
 
 }
 
@@ -218,11 +218,12 @@ p.align{
     font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #408f43; 
+    background-color: #ad1cad; 
+    border-radius: 12px;
   }
 
   .contact-button:hover {
-    background-color: rgb(28, 100, 66); 
+    background-color: rgb(113, 55, 121); 
     transition: 0.8s;
  }
 
