@@ -182,4 +182,23 @@ nav .fa{
     transition: 0.8s;
 
   }
+ 
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing:boder-box;
+      
+}
+  body,
+  input,
+  textarea{font-family:"popins",sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height:100vh;
+    padding: 2rem;
+    background-color: grey;
+
+}
 
