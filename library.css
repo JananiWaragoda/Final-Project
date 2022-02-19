@@ -182,3 +182,41 @@ nav .fa{
     transition: 0.8s;
 
   }
+
+  .row
+{
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ebook-column
+{
+flex-basis: 20%;
+background: #325272c2;
+border-radius: 12px;
+margin-bottom: 20px;
+padding: 15px 18px;
+transition: 0.65s;
+box-sizing: border-box;
+}
+
+.column img
+{
+width: 100%;
+display: block;
+}
+
+.ebook-column:hover{
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.35);
+}
+
+.ebook-column img:hover{
+    box-shadow: 0 0 20px 12px rgba(255, 255, 255, 0.281);
+}
+
+@media(max-width: 600px){
+    .row{
+        flex-direction: column;
+    }
+}
