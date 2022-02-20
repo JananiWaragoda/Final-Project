@@ -218,12 +218,12 @@ p.align{
     font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #ad1cad; 
+    background-color: rgba(142, 57, 153, 0.877); 
     border-radius: 12px;
   }
 
   .contact-button:hover {
-    background-color: rgb(113, 55, 121); 
+    background-color: rgba(86, 36, 92, 0.89); 
     transition: 0.8s;
  }
 
@@ -298,7 +298,18 @@ p.align{
     flex-direction: column;
 }
 
+.contentBx h4{
+    font-size: 24px;
+    text-align: center;
+}
 
+.contentBx h5{
+    font-size: 18px;
+    text-align: center;
+    color: #504f4f;
+    line-height: 0.9;
+    padding-bottom: 5px;
+}
 
 
 
