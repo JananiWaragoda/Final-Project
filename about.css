@@ -298,7 +298,18 @@ p.align{
     flex-direction: column;
 }
 
+.contentBx h4{
+    font-size: 24px;
+    text-align: center;
+}
 
+.contentBx h5{
+    font-size: 18px;
+    text-align: center;
+    color: #504f4f;
+    line-height: 0.9;
+    padding-bottom: 5px;
+}
 
 
 
