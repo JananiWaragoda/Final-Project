@@ -237,12 +237,12 @@ display: block;
     font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #ad1cad; 
+    background-color: #3c3c3d; 
     border-radius: 12px;
   }
 
   .contact-button:hover {
-    background-color: rgb(113, 55, 121); 
+    background-color: rgba(15, 16, 95, 0.733); 
     transition: 0.8s;
  }
 
