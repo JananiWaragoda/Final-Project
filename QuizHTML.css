@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Dongle', sans-serif;
 }
 
@@ -156,6 +157,22 @@ nav .fa{
         padding: 10;
         left: 0%;
         top: 100%;
-
     }
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+	margin:30px 0px -15px;
+    font-size: 53px;
+}
+
+.quiz_wrapper{
+	height: 300px;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.315);
+	margin:50px auto;
+	border-radius: 8px;
+	padding: 30px;
+    padding-bottom: 30px;
 }
