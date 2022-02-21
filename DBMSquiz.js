@@ -34,6 +34,32 @@ var app={
             options:['Form','Query','Macro','Report'],
             answer:2,
         },
+        
         {
-            
-        }
+            q:'Which database object is ideal to view, change, andanalyze datain different ways ?', 
+            options:['Table','Form','Query','Report'],
+            answer:3,
+        },
+        {
+            q:'In one-to-many relationship the table in one side is called _______', 
+            options:['Child','Owner','Parent','Entity'],
+            answer:3,
+        },
+        {
+            q:'Which data type allows alphanumeric characters and special symbols to be entered?', 
+            options:['Text','Memo','Auto Number','Mixed'],
+            answer:1,
+        },
+        {
+            q:'It is used to establish an association between related tables.', 
+            options:['Line','Relationship','Primary Key','Records'],
+            answer:2,
+        },
+        {
+            q:'This key that uniquely identifies each record is called ', 
+            options:['Primary Key','Key Record','Unique Key','Field Name'],
+            answer:1,
+            },
+        ],
+      
+        
