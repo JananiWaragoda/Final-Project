@@ -9,19 +9,59 @@ var op4=document.getElementById('op4');
 
 var app={
     questions:[
-       {
+        {
             q:'HTML stands for?', 
             options:['Hyper Text Markup Language','High Text Markup Language','Hyper Tabular Markup Language','None of these'],
-            answer:1
-       },
-       {
-        q:'HTML stands for?', 
-        options:['Hyper Text Markup Language','High Text Markup Language','Hyper Tabular Markup Language','None of these'],
-        answer:1
-       }
+            answer:1,
+        },
+        {
+            q:'HTML is what type of language?', 
+            options:['Scripting Language','Markup Language','Programming Language','Network Protocol'],
+            answer:2,
+        },
+        {
+            q:'HTML uses?', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
+        {
+            q:'', 
+            options:['','','',''],
+            answer:1,
+        },
     ],
 
-index:0,
+    index:0,
 
          load:function(){
             if(this.index<=this.questions.length-1){
@@ -43,10 +83,12 @@ index:0,
                         btn.style.display="none";
                         }
          },
-         next:function(){
+
+            next:function(){
             this.index++;
             this.load();
          },
+
         check:function(ele){
            
                  var id=ele.id.split('');
@@ -61,20 +103,23 @@ index:0,
                      ele.className="wrong";
                      ele.innerHTML="Wrong";
                  }
+
         },
+
         notClickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                     ul.children[i].style.pointerEvents="none";
             }
      },
 
-     clickAble:function(){
+        clickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                     ul.children[i].style.pointerEvents="auto";
                     ul.children[i].className=''
 
             }
      },
+
      score:0,
      scoreCard:function(){
          scoreCard.innerHTML=this.score+"/"+this.questions.length;
@@ -84,12 +129,12 @@ index:0,
 
 window.onload=app.load();
 
-           function button(ele){
+            function button(ele){
            	     app.check(ele);
            	     app.notClickAble();
            }
 
-         function  next(){
+            function  next(){
               app.next();
               app.clickAble();
  } 
