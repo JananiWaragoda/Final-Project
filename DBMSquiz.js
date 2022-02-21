@@ -105,5 +105,10 @@ var app={
             }
 
    },
+   notClickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="none";
+    }
+},
 
          
