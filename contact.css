@@ -218,7 +218,7 @@ textarea {
   z-index: 1000; 
   overflow: hidden;
   display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+   grid-template-columns: repeat(2, 1fr); 
    
 }
 
@@ -229,9 +229,8 @@ textarea {
 
 
 .circle{
-
 border-radius: 50%;
-background: linear-gradient(135deg,transparent 20% );
+background: linear-gradient(135deg,transparent 20%,#149279 );
 position: absolute;
 
 }
@@ -263,7 +262,7 @@ position: absolute;
 
 form{
  padding: 2.3rem 2.2rem;
- z-index: 100;
+ z-index: 10;
  overflow: hidden;
  position: relative;    
 }
@@ -281,9 +280,9 @@ form{
    }
    
   .input{
-      width: 90%;
+      width: 100%;
       outline:none ;
-      border: 3px solid #faf7f7;
+      border: 2px solid #fafafa;
       background: none;
       padding: 0.6rem 1.2rem;
       color: #fff;
@@ -305,10 +304,10 @@ textarea.input{
 .input-container label{
     position: absolute;
     top: 50%;
-    left:150px ;
+    left:15px ;
     transform: translateY(-50%);
     padding:0 0.4rem ;
-    color :#fff;
+    color :#fafafa;
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
