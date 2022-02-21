@@ -346,4 +346,50 @@ h1{
             box-shadow: 0px 3px 0px #cb0b0b8c;
         }
         
-       
+        .quiz-wrapper .score{
+            float: left;
+            width: 100%;
+        
+            padding: 20px 0px;
+        }
+        
+        .quiz-wrapper .score .next{
+            width: 100%;
+            float: left;
+        }
+        
+        .quiz-wrapper .score .next button{
+            padding: 8px 40px;
+            color:white;
+            background-color:#ff9900b4;
+            border:none;
+            border-radius:8px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0px 3px 0px #c97b0693;
+            outline: none;
+            flex-direction: column;
+        }
+        
+        .quiz-wrapper .score .next button:active{
+            box-shadow: 0px 3px 0px transparent;	
+            }
+            
+            .quiz-wrapper .score .score-card{
+                width: 60%;
+                float: left;
+            }
+            .quiz-wrapper .score .score-card{
+                font-size: 20px;
+                color:black;
+                line-height: 50px;
+                text-transform: uppercase;
+            }
+            .quiz-wrapper .score .score-card span{
+                background-color: #4caf4faf;
+                padding: 5px 17px;
+                border-radius: 8px;
+                color:#ffffff;
+                flex-direction: column;
+    }
+}
