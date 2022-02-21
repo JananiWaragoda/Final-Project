@@ -60,3 +60,20 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+.nav-links ul li ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    text-align: left;
+}
+
+.nav-links ul li:focus-within > ul,
+.nav-links ul li:hover > ul{
+    display: initial;
+}
+
+nav .fa{
+    display: none;
+}
