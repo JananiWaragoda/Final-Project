@@ -225,13 +225,15 @@ textarea {
 .contact-form{
     background-color: #8d2727 ;
     position: relative;
+    
 }
 
 
 .circle{
 border-radius: 500%;
-background: linear-gradient(135deg,transparent 20%,#8d2727);
+background: linear-gradient(135deg,transparent 20%,#fafafa33);
 position: absolute;
+
 
 }
 
@@ -239,14 +241,14 @@ position: absolute;
     width: 130px;
     height: 130px;
     top: 130px;
-    right:-40px
+    right:400px
 }
 
 .circle.tow{
     width: 80px;
     height: 80px;
-    top: 10px;
-    right:30px;
+    top: 100px;
+    right:300px;
 }
 
 .contact-form::before{
@@ -254,7 +256,7 @@ position: absolute;
      position:  absolute;
      width:26px;
      height: 26px;
-     background-color:  #8d2727 ;
+     background-color:    #1abc9c ;
      transform: rotate(45deg);
      top :50px;
      left: -13px;
