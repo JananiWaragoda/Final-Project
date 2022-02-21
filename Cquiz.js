@@ -34,5 +34,30 @@ var app={
             options:['0.1.2.3','1,2,3,4','1,3,4,5','1,4,5,6'],
             answer:2,
         },
+        {
+            q:'What will be the output of the program ?#include<stdio.h>int main(){    int a[5] = {5, 1, 15, 20, 25};    int i, j, m;    i = ++a[1];    j = a[1]++;    m = a[i++];    printf("%d, %d, %d", i, j, m);    return 0;}', 
+            options:['6,7,8','4,5,6','3,2,15','2,3,4'],
+            answer:3,
+        },
+        {
+            q:'In C, if you pass an array as an argument to a function, what actually gets passed?', 
+            options:['Value of elements in array','First element of the array','Base address of the array','Address of the last element of array'],
+            answer:3,
+        },
+        {
+            q:'What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?', 
+            options:['The element will be set to 0.','he compiler would report an error.','The program may crash if some important data gets overwritten','The array size would appropriately grow.'],
+            answer:3,
+        },
+        {
+            q:'Which of the following statements are correct about an array?1: The array int num[26]; can store 26 elements.2: The expression num[1] designates the very first element in the array.3: It is necessary to initialize the array at the time of declaration.4: The declaration num[SIZE] is allowed if SIZE is a macro.', 
+            options:['1,2','1,4','1,5','1,6'],
+            answer:2,
+        },
+        {
+            q:'What will be the output of the program in Turb C (under DOS)?#include<stdio.h>int main(){    int arr[5], i=0;    while(i<5)        arr[i]=++i;    for(i=0; i<5; i++)        printf("%d, ", arr[i]);    return 0;}', 
+            options:['1,2,3','garbage value 1,2,3,4','1,2,3,4,5','1,4,5'],
+            answer:2,
+        },
        
     ],
