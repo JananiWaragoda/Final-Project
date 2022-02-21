@@ -228,7 +228,7 @@ h1{
 	box-shadow: 0px 3px 0px #03a5038f;
 }
 
-.quiz-wrapper .options ul li.wrong{
+.quiz-wrapper .options ul li.Incorrect{
 	background-color: #e91e1ea9;
 	box-shadow: 0px 3px 0px #cb0b0b8c;
 }

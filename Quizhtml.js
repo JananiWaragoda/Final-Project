@@ -100,8 +100,8 @@ var app={
                      this.scoreCard();
                  }
                  else{
-                     ele.className="wrong";
-                     ele.innerHTML="Wrong";
+                     ele.className="Incorrect";
+                     ele.innerHTML="Incorrect";
                  }
 
         },
