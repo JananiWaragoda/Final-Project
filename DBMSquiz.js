@@ -88,5 +88,42 @@ var app={
             next:function(){
             this.index++;
             this.load();
-         }
+         },
+         check:function(ele){
+           
+            var id=ele.id.split('');
+            
+            if(id[id.length-1]==this.questions[this.index].answer){
+                this.score++;
+                ele.className="correct";
+                ele.innerHTML="Correct";
+                this.scoreCard();
+            }
+            else{
+                ele.className="Incorrect";
+                ele.innerHTML="Incorrect";
+            }
+
+   },
+   notClickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="none";
+    }
+},
+clickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="auto";
+            ul.children[i].className=''
+
+    }
+},
+
+score:0,
+scoreCard:function(){
+ scoreCard.innerHTML=this.score+"/"+this.questions.length;
+}
+
+}
+
+
          
