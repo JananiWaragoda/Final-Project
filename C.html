@@ -12,17 +12,13 @@
     <title>C Quiz</title> 
 </head>
 <body>
+    <script src="Cquiz.js"></script>
     <section class="header">
-
-
         <nav>
             <a href="index.html"><img src="Images/Academy root LOGO white .png"></a>
-
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
-
                 <ul>
-                    
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT US</a></li>
                     <li><a href="">QUIZ LAB ▾</a>
@@ -35,12 +31,33 @@
                     </li>
                     <li><a href="library.html">LIBRARIES</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
-                    
                 </ul>
             </div>
                 <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
         </nav>
+        <h1> Programming in C Quiz</h1>
+        <div class="quiz-wrapper">
+                <div class="question" id="questionBox">   
+                </div>
+            <div class="options">
+                <ul id="ul">
+                    <li id="op1" onclick="button(this)"></li>
+                    <li id="op2" onclick="button(this)"></li>
+                    <li id="op3" onclick="button(this)"></li>
+                    <li id="op4" onclick="button(this)"></li>
+                </ul>
+            </div>
+            <div class="score">
+                <div class="next">
+                    <button type="button" onclick="next()" id="button">Next</button>
+                </div>
+                <div class="score-card">
+                    Your Score : <span id="scoreCard">0</span>
+                </div>
+            </div>
+        </div>
+</section>
 
-     <script src="Cquiz.js"></script>
+     
 </body>
 </html>
