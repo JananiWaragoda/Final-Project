@@ -88,3 +88,20 @@ var app={
         this.index++;
         this.load();
      },
+
+     check:function(ele){
+           
+        var id=ele.id.split('');
+        
+        if(id[id.length-1]==this.questions[this.index].answer){
+            this.score++;
+            ele.className="correct";
+            ele.innerHTML="Correct";
+            this.scoreCard();
+        }
+        else{
+            ele.className="Incorrect";
+            ele.innerHTML="Incorrect";
+        }
+
+},
