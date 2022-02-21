@@ -124,6 +124,17 @@ scoreCard:function(){
 }
 
 }
+window.onload=app.load();
+
+            function button(ele){
+           	     app.check(ele);
+           	     app.notClickAble();
+           }
+
+            function  next(){
+              app.next();
+              app.clickAble();
+ } 
 
 
          
