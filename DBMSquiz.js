@@ -110,5 +110,20 @@ var app={
             ul.children[i].style.pointerEvents="none";
     }
 },
+clickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="auto";
+            ul.children[i].className=''
+
+    }
+},
+
+score:0,
+scoreCard:function(){
+ scoreCard.innerHTML=this.score+"/"+this.questions.length;
+}
+
+}
+
 
          
