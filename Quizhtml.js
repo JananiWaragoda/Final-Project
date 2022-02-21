@@ -43,10 +43,12 @@ index:0,
                         btn.style.display="none";
                         }
          },
-         next:function(){
+
+            next:function(){
             this.index++;
             this.load();
          },
+
         check:function(ele){
            
                  var id=ele.id.split('');
@@ -61,7 +63,9 @@ index:0,
                      ele.className="wrong";
                      ele.innerHTML="Wrong";
                  }
+
         },
+
         notClickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                     ul.children[i].style.pointerEvents="none";
@@ -89,7 +93,7 @@ window.onload=app.load();
            	     app.notClickAble();
            }
 
-         function  next(){
+           function  next(){
               app.next();
               app.clickAble();
  } 

@@ -168,13 +168,14 @@ h1{
 }
 
 .quiz-wrapper{
-    
+    position: relative;
+    height: 500px;
     margin: auto;
-    height: 400px;
 	width: 80%;
 	background-color: rgba(255, 255, 255, 0.315);
 	border-radius: 8px;
 	padding: 30px;
+    padding-bottom: 50px;
 
 }
 
@@ -234,8 +235,7 @@ h1{
 
 .quiz-wrapper .score{
 	float: left;
-	width: 100%;
-
+	width: 140%;
 	padding: 30px 0px;
 }
 
@@ -286,9 +286,8 @@ h1{
         }
         
         .quiz-wrapper{
-            
+            height: 680px;
             margin: auto;
-            height: max-content;
             width: 80%;
             background-color: rgba(255, 255, 255, 0.315);
             border-radius: 8px;
@@ -318,7 +317,6 @@ h1{
             padding: 0px;
             display: flex;
             justify-content: space-between;
-
             flex-direction: column;
         }
         
@@ -326,10 +324,10 @@ h1{
             display: inline-block;
             background-color:#9e9e9ead;
             width: 100%;
-            padding: 15px;
+            padding: 12px;
             border-radius:8px;
-            margin-top: 25px;
-            font-size: 25px;
+            margin-top: 20px;
+            font-size: 20px;
             color:#ffffff;
             box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.596);
             cursor: pointer;
@@ -355,7 +353,7 @@ h1{
             float: left;
             width: 100%;
         
-            padding: 30px 0px;
+            padding: 20px 0px;
         }
         
         .quiz-wrapper .score .next{
@@ -364,7 +362,7 @@ h1{
         }
         
         .quiz-wrapper .score .next button{
-            padding: 15px 80px;
+            padding: 8px 40px;
             color:white;
             background-color:#ff9900b4;
             border:none;
@@ -387,12 +385,12 @@ h1{
             .quiz-wrapper .score .score-card{
                 font-size: 20px;
                 color:black;
-                line-height: 40px;
+                line-height: 50px;
                 text-transform: uppercase;
             }
             .quiz-wrapper .score .score-card span{
                 background-color: #4caf4faf;
-                padding: 5px 20px;
+                padding: 5px 17px;
                 border-radius: 8px;
                 color:#ffffff;
                 flex-direction: column;
