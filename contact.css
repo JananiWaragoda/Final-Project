@@ -320,9 +320,9 @@ textarea.input{
 }
 
 .btn{
-    padding: 0.6rem 1.3ram;
+    padding: 0.6rem 1.3rem;
     background-color: #fff;
-    border: 2px solid #faf7f7;
+    border: 2px solid #fafafa;
     font-size: 0.95rem;
     color: #1abc9c;
     line-height: 1;
@@ -515,7 +515,7 @@ textarea.input{
     .text {
       margin: 1rem 0 1.5rem 0;
     }
-  
+  s
     .social-media {
       padding: 1.5rem 0 0 0;
     }
