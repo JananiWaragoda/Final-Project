@@ -207,3 +207,32 @@ h1{
 	background-color: #e91e1ea9;
 	box-shadow: 0px 3px 0px #cb0b0b8c;
 }
+
+.quiz-wrapper .score{
+	float: left;
+	width: 140%;
+	padding: 30px 0px;
+}
+
+.quiz-wrapper .score .next{
+	width: 40%;
+	float: left;
+}
+
+.quiz-wrapper .score .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color:#ff9900b4;
+	border:none;
+	border-radius:8px;
+	font-size: 25px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97b0693;
+	outline: none;
+}
+
+.quiz-wrapper .score .next button:active{
+    box-shadow: 0px 3px 0px transparent;	
+    }
+
+    
