@@ -10,19 +10,19 @@ var op4=document.getElementById('op4');
 var app={
     questions:[
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'Java is a ?', 
+            options:['high-level programming language','object-oriented(class-based) programming language','functional,imperative and reflective programming language','All the above'],
+            answer:4,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'What is the size of boolean variable?', 
+            options:['8 bit','16 bit','32 bit','not precisely defined'],
+            answer:2,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'What is the default value of long variable?', 
+            options:['0','0.0','0L','not defined'],
+            answer:3,
         },
         {
             q:'', 
