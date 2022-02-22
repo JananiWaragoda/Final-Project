@@ -222,7 +222,7 @@ display: block;
 }
 
 .ebook-column:hover{
-    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.733);
+    box-shadow: 0 0 20px 8px rgba(17, 17, 17, 0.397);
 }
 
 .ebook-column img:hover{
