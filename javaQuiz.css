@@ -101,4 +101,38 @@ nav .fa{
         z-index: 2;
 
     }
+
+    nav .fa{
+        display: block;
+        opacity: 85%;
+        color: rgb(255, 255, 255);
+        margin: 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+      
+    .nav-links ul{
+        padding: 20px;
+    }
+
+    .nav-links ul li ul{
+        text-align: center;
+        position: relative;
+        left: 0%;
+        width: 100%;
+        background: transparent;
+        display: none;
+    }
     
+    .nav-links ul li ul li{
+        display: block;
+        align-items: left;
+        position: relative;
+        width: 100%;
+        padding: 10;
+        left: 0%;
+        top: 100%;
+    }
+}
+
+
