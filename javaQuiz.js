@@ -105,3 +105,36 @@ var app={
         }
 
 },
+
+notClickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="none";
+    }
+},
+
+clickAble:function(){
+    for(let i=0;i<ul.children.length;i++){
+            ul.children[i].style.pointerEvents="auto";
+            ul.children[i].className=''
+
+    }
+},
+
+score:0,
+scoreCard:function(){
+ scoreCard.innerHTML=this.score+"/"+this.questions.length;
+}
+
+}
+
+window.onload=app.load();
+
+    function button(ele){
+            app.check(ele);
+            app.notClickAble();
+   }
+
+    function  next(){
+      app.next();
+      app.clickAble();
+} 
