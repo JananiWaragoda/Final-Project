@@ -40,24 +40,24 @@ var app={
             answer:1,
         },
         {
-            q:'', 
-            options:['','','',''],
+            q:'Which of these classes are the direct subclasses of the Throwable class?', 
+            options:['RuntimeException and Error class.',' Exception and VirtualMachineError class.','Error and Exception class.','IOException and VirtualMachineError class.'],
+            answer:3,
+        },
+        {
+            q:'What is runtime polymorphism?', 
+            options:['Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.',' Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile-time.','Both of the above.','None of the above.'],
             answer:1,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'In which case, a program is expected to recover?', 
+            options:['If an error occurs.','If an exception occurs.','Both of the above.','None of the above.'],
+            answer:2,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
-        },
-        {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'Which of the following is true about super class?', 
+            options:['Variables, methods and constructors which are declared private can be accessed only by the members of the super class.',' Variables, methods and constructors which are declared protected can be accessed by any subclass of the super class.','Variables, methods and constructors which are declared public in the superclass can be accessed by any class.',' All of the above.'],
+            answer:4,
         },
     ],
 
