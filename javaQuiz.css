@@ -135,4 +135,10 @@ nav .fa{
     }
 }
 
+h1{
+	text-align: center;
+	color: #ffffff;
+    font-size: 53px;
+    padding-top: -1000px;
+}
 
