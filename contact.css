@@ -201,7 +201,7 @@ textarea {
     width: 100%;
     min-height:100vh;
     padding: 1rem;
-    background-color:#51ebe333;
+    background-color:#103a3893;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -210,10 +210,10 @@ textarea {
 
 .form{
   width: 100%;
-  max-width: 920px;
+  max-width: 720px;
   background-color:   rgb(116, 112, 112)  ;
   border-radius: 10px ;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 200px 50px rgba(0, 0, 0, 0.1);
   z-index: 1000; 
   overflow: hidden;
   display: grid;
