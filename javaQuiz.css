@@ -323,3 +323,27 @@ h1{
             background-color: #e91e1ea9;
             box-shadow: 0px 3px 0px #cb0b0b8c;
         }
+        .quiz-wrapper .score{
+            float: left;
+            width: 100%;
+        
+            padding: 20px 0px;
+        }
+        
+        .quiz-wrapper .score .next{
+            width: 100%;
+            float: left;
+        }
+        
+        .quiz-wrapper .score .next button{
+            padding: 8px 40px;
+            color:white;
+            background-color:#ff9900b4;
+            border:none;
+            border-radius:8px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0px 3px 0px #c97b0693;
+            outline: none;
+            flex-direction: column;
+        }
