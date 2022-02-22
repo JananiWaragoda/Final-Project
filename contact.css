@@ -214,7 +214,11 @@ nav .fa{
 .contact-form{
     background-color: #2abb727c ;
     position: relative;
-    align-items: center;
+    align-items: right;
+    border-radius: 15px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-size: larger;
     
 }
 
@@ -254,10 +258,11 @@ position: absolute;
 }
 
 form{
-width: 100%;
-
- padding: 50px 50px;
- z-index: 10;
+  border-radius: 15px;
+ width: 100%;
+ align-items: flex-end;
+ padding: 30px 30px;
+ z-index: 1000;
  overflow: hidden;
  position: relative;    
 }
@@ -277,7 +282,7 @@ width: 100%;
   .input{
       width: 100%;
       outline:none ;
-      border: 1px solid #fafafa;
+      border: 2px solid #fafafa;
       background: none;
       padding: 0.6rem 1.2rem;
       color: #fff;
@@ -311,7 +316,7 @@ width: 100%;
 }
 .input-container.textarea label{
     top: 5rem;
-    transform: translateY(0);
+
 }
 
 .btn{
@@ -343,6 +348,7 @@ width: 100%;
     color: transparent;
     pointer-events: none;
     z-index: 500;
+
   }
   
   .input-container span:before,
@@ -360,17 +366,20 @@ width: 100%;
   
   .input-container span:before {
     left: 50%;
+    color: #fafafa;
   }
   
   .input-container span:after {
     right: 50%;
+    color: #fafafa;
   }
   
   .input-container.focus label {
     top: 0;
     transform: translateY(-50%);
     left: 25px;
-    font-size: 0.8rem;
+    font-size: 5rem;
+    color: #fafafa;
   }
   
   .input-container.focus span:before,
@@ -389,16 +398,17 @@ width: 100%;
   }
   
   .text {
-    color: #333;
+    color: rgb(255, 255, 255);
     margin: 1.5rem 0 2rem 0;
+    font-size: larger;
   }
   
   .information {
     display: flex;
-    color: rgb(37, 37, 37);
-    margin: 0.7rem 0;
-    align-items: center;
-    font-size: 0.95rem;
+    color: rgb(255, 255, 255);
+    margin: 0.8rem 0;
+    align-items: right;
+    font-size: larger;
   }
   
   .icon {
@@ -408,10 +418,13 @@ width: 100%;
   
   .social-media {
     padding: 2rem 0 0 0;
+;
   }
   
   .social-media p{
-    color: rgba(51, 51, 51, 0.281);
+    color: rgb(255, 250, 250);
+    font-size: larger;
+    text-align: left;
   }
   
   .social-icons {
