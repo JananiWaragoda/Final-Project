@@ -56,10 +56,32 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+.nav-links ul li ul{
+    text-align: center;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    background: transparent;
+    display: none;
+}
+
+.nav-links ul li ul li{
+    align-items: left;
+    position: relative;
+    width: 100%;
+    padding: 10;
+    left: 0%;
+    top: 100%;
+    transition: 0.5s;
+}
+.nav-links ul li ul li:hover::after{
+    width: 100%;
+}
+
 
 .nav-links ul li ul a{
     color: #fff;
