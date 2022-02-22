@@ -10,7 +10,7 @@ var op4=document.getElementById('op4');
 var app={
     questions:[
         {
-            q:'Java is a ?', 
+            q:'Java is a?', 
             options:['high-level programming language','object-oriented(class-based) programming language','functional,imperative and reflective programming language','All the above'],
             answer:4,
         },
@@ -25,18 +25,18 @@ var app={
             answer:3,
         },
         {
-            q:'', 
-            options:['','','',''],
+            q:'What is Encapsulation?', 
+            options:['Encapsulation is a technique to define different methods of same type.','Encapsulation is the ability of an object to take on many forms.',' Encapsulation is the technique of making the fields in a class private and providing access to the fields via public methods.','None of the above.'],
+            answer:3,
+        },
+        {
+            q:'What is an applet?', 
+            options:['An applet is a Java program that runs in a Web browser.','Applet is a standalone java program.','Applet is a tool.','Applet is a run time environment.'],
             answer:1,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
-        },
-        {
-            q:'', 
-            options:['','','',''],
+            q:'What is NullPointerException?', 
+            options:['A NullPointerException is thrown when calling the instance method of a null object or modifying/accessing field of a null object.','A NullPointerException is thrown when object is set as null.',' A NullPointerException is thrown when object property is set as null.','None of the above.'],
             answer:1,
         },
         {
