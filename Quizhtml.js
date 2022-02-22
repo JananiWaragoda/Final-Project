@@ -21,22 +21,22 @@ var app={
         },
         {
             q:'HTML uses?', 
-            options:['','','',''],
+            options:['User defined tags','Pre-specified tags','Fixed tags defined by the language','Tags only for linking'],
+            answer:3,
+        },
+        {
+            q:'The year in which HTML was first proposed _______.', 
+            options:['1990','1980','2000','1995'],
             answer:1,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
+            q:'Fundamental HTML Block is known as ___________.', 
+            options:['HTML Body','HTML Tag','HTML Attribute','HTML Element'],
+            answer:2,
         },
         {
-            q:'', 
-            options:['','','',''],
-            answer:1,
-        },
-        {
-            q:'', 
-            options:['','','',''],
+            q:'Apart from <b> tag, what other tag makes text bold ?', 
+            options:['<fat>','<strong>','<black>','<emp>'],
             answer:1,
         },
         {
