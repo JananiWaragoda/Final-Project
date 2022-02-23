@@ -182,7 +182,7 @@ nav .fa{
     transition: 0.8s;
 
   }
-  
+/*   
  .container{
     position:relative;
     width: 100%;
@@ -193,7 +193,7 @@ nav .fa{
     display: flex;
     align-items: center;
     justify-content: space-between;
-} 
+}  */
 
 .form{
   position: relative;
