@@ -183,22 +183,22 @@ nav .fa{
 
   }
   
- /* .container{
+ .container{
     position:relative;
     width: 100%;
     min-height:120px;
     padding: 10px;
-    background-color:#7a918f27;
+    background-color:  #1abc9c ;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+} 
 
 .form{
   position: relative;
   align-items: center;
-  background-color:   rgba(100, 136, 146, 0)  ;
+  background-color:   rgba(92, 94, 93, 0.753)  ;
   border-radius: 10px ;
   box-shadow: 0 0 200px 50px rgba(0, 0, 0, 0.1);
   z-index: 1000; 
@@ -212,7 +212,7 @@ nav .fa{
 }
 
 .contact-form{
-    background-color: #2abb727c ;
+    background-color:  #1abc9c ;
     position: relative;
     align-items: right;
     border-radius: 15px;
@@ -250,8 +250,8 @@ position: absolute;
      position:  absolute;
      width:26px;
      height: 26px;
-     background-color:  #2abb727c ;
-     transform: rotate(45deg);
+    background-color:  #1abc9c ;
+    transform: rotate(45deg);
      top :50px;
      left: -13px;
 
@@ -322,11 +322,11 @@ form{
 .btn{
     padding: 15px;
     background-color: #fff;
-    border: 2px solid #fafafa;
+    border: 1px solid #fafafa;
     font-size: 2rem;
     color: #1abc9c;
     line-height: 0.1;
-    border-radius: 15px;
+    border-radius: 10px;
     outline: none;
     cursor: pointer;
     transition: 0.3s;
@@ -436,7 +436,7 @@ form{
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c7e, #1492799a);
+    background: linear-gradient(45deg, #1abc9c , #1492799a);
     color: #fff;
     text-align: center;
     line-height: 35px;
