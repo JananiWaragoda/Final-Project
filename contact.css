@@ -604,8 +604,12 @@ form{
 }
 
 .icons{
-color: rgb(0, 26, 255);
-font-size: 30px;
-}
-
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  }
+  
+  
+  .footer h1{
+      font-size: 30px;
+  }
   
