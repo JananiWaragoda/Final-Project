@@ -45,13 +45,11 @@
                 <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
         </nav> 
 
-        <div class="container">
-            <span class="big-circle"></span>
-            <img src="Images/shape.png" class="square" alt=""/>
-            
-            <div class="form">
 
-                
+            <span class="big-circle"></span>
+          
+            <br><br><br><br><br><br>
+    <section class="form">
 
             <div class="contact-info"> 
                 <h3 class="title">Let's get in touch</h3>
@@ -64,23 +62,23 @@
 
                        <div class="information">
                        <image src="Images/location.png" class="icon" alt=""/>
-                        <p>NSBM Green Univercity,Homagama</p>
+                        <p>NSBM Green University,Homagama</p>
                         </div>
        
                        <div class="information">
                         <image src="Images/email.png" class="icon" alt=""/>
-                        <p>academycroot@gmail.com</p>
+                        <p>academyroot@gmail.com</p>
                         </div>
            
                       <div class="information">
                        <image src="Images/phone.png" class="icon" alt=""/>
-                        <p>011 63 25 422</p>
+                        <p>+94 xx xxx xxxx</p>
                         </div>
 
                      </div>
        
                      <div class="social-media">
-                      <p>Contact With Us</p>
+                      <p>Connect With Us</p>
 
                         <div class="social-icons">
                           <a href="#">
@@ -99,13 +97,15 @@
 
                      </div>
                </div>
-               <div class="container">
+             
                 
-          <div class="contact-form"></div>
+          <div class="contact-form">
+
+       
                   <span class="circle one"></span>
                   <span class="circle tow"></span>
 
-          <form action="contact.html" autocomplete="off">
+         <form action="contact.html" autocomplete="off">
              <h3 class="title">Contact us</h3>
              
              <div class="input-container">
@@ -132,19 +132,67 @@
            <span>Message</span>
            </div>
        
-           <input type="submit" value="send" class="btn"/>
+           <input type="submit" value="Send" class="btn"/>
 
-
-            </form>
+             </form>
           </div>
-         
-         
-      </div>
+      </section>  
+      
+      <br><br><br><br><br><br>
 
 
     </section>
 
+    <!-- footer -->
+    <section class="footer">
 
-    <script src="app.js"></script>
+      <h1>Academy Root</h1>
+      <p>A Great Place To Learn</p>
+  <div class="icons">
+     <i class="fab fa-facebook" aria-hidden="true"></i>
+     <i class="fab fa-twitter" aria-hidden="true"></i>
+     <i class="fab fa-instagram" aria-hidden="true"></i>
+     <i class="fab fa-linkedin" aria-hidden="true"></i>
+ </div>
+ <p>AcademyRoot<i class="far fa-copyright" aria-hidden="true"></i><br>All Rights Reserved </p>
+
+  </section>
+
+    <script>
+
+      var navLinks = document.getElementById("navLinks")
+  
+      function showmenu(){
+          navLinks.style.right = "0";
+      }
+  
+      function hidemenu(){
+          navLinks.style.right = "-200";
+      }
+
+
+
+      mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() 
+      {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none";
+      }
+      }
+
+
+      function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+      }
+  
+  </script>
+
+
+
 </body>
 </html>

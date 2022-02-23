@@ -103,7 +103,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 600px)
+@media(max-width: 950px)
 {
     nav img{
         width: 235px; 
@@ -157,7 +157,6 @@ nav .fa{
         padding: 10;
         left: 0%;
         top: 100%;
-
     }
 }
 
@@ -184,54 +183,49 @@ nav .fa{
 
   }
   
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-}
-
- .container{
+ /* .container{
     position:relative;
     width: 100%;
-    min-height:100vh;
-    padding: 1rem;
-    background-color:#103a3893;
+    min-height:120px;
+    padding: 10px;
+    background-color:#7a918f27;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: space-between;
+} */
 
 .form{
-  width: 100%;
-  max-width: 720px;
-  background-color:   rgb(116, 112, 112)  ;
+  position: relative;
+  align-items: center;
+  background-color:   rgba(100, 136, 146, 0)  ;
   border-radius: 10px ;
   box-shadow: 0 0 200px 50px rgba(0, 0, 0, 0.1);
   z-index: 1000; 
   overflow: hidden;
-  display: grid;
-   grid-template-columns: repeat(2, 1fr); 
-   display: flex;
-   
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .contact-form{
-    background-color: #8d2727 ;
+    background-color: #2abb727c ;
     position: relative;
+    align-items: right;
+    border-radius: 15px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-size: larger;
     
 }
 
 
 .circle{
 border-radius: 500%;
-background: linear-gradient(135deg,transparent 20%,#fafafa33);
+background: linear-gradient(135deg,transparent 20%,#fafafa15);
 position: absolute;
 
 
@@ -256,15 +250,19 @@ position: absolute;
      position:  absolute;
      width:26px;
      height: 26px;
-     background-color:    #1abc9c ;
+     background-color:  #2abb727c ;
      transform: rotate(45deg);
      top :50px;
      left: -13px;
+
 }
 
 form{
- padding: 2.3rem 2.2rem;
- z-index: 10;
+  border-radius: 15px;
+ width: 100%;
+ align-items: flex-end;
+ padding: 30px 30px;
+ z-index: 1000;
  overflow: hidden;
  position: relative;    
 }
@@ -284,21 +282,21 @@ form{
   .input{
       width: 100%;
       outline:none ;
-      border: 1px solid #fafafa;
+      border: 2px solid #fafafa;
       background: none;
       padding: 0.6rem 1.2rem;
       color: #fff;
       font-weight: 500;
-      font-size: 0.95rem;
+      font-size: 20px;
       letter-spacing: 0.5px;
       border-radius: 25px;
       transition: 0.3s;
   }
 
-textarea.input{
+.textarea input{
     padding: 0.8rem 1.2rem;
     min-height: 150px;
-    border-radius: 22px;
+    border-radius:10px;
     resize: none;
     overflow-y: auto;
 }
@@ -310,7 +308,7 @@ textarea.input{
     transform: translateY(-50%);
     padding:0 0.4rem ;
     color :#fafafa;
-    font-size: 0.9rem;
+    font-size: 26px;
     font-weight: 400;
     pointer-events: none;
     z-index: 1000;
@@ -318,17 +316,17 @@ textarea.input{
 }
 .input-container.textarea label{
     top: 5rem;
-    transform: translateY(0);
+
 }
 
 .btn{
-    padding: 0.6rem 1.3rem;
+    padding: 15px;
     background-color: #fff;
     border: 2px solid #fafafa;
-    font-size: 0.99rem;
+    font-size: 2rem;
     color: #1abc9c;
     line-height: 0.1;
-    border-radius: 25px;
+    border-radius: 15px;
     outline: none;
     cursor: pointer;
     transition: 0.3s;
@@ -350,13 +348,14 @@ textarea.input{
     color: transparent;
     pointer-events: none;
     z-index: 500;
+
   }
   
   .input-container span:before,
   .input-container span:after {
     content: "";
     position: absolute;
-    width: 10%;
+    width: 100%;
     opacity: 0;
     transition: 0.3s;
     height: 5px;
@@ -367,17 +366,20 @@ textarea.input{
   
   .input-container span:before {
     left: 50%;
+    color: #fafafa;
   }
   
   .input-container span:after {
     right: 50%;
+    color: #fafafa;
   }
   
   .input-container.focus label {
     top: 0;
     transform: translateY(-50%);
     left: 25px;
-    font-size: 0.8rem;
+    font-size: 5rem;
+    color: #fafafa;
   }
   
   .input-container.focus span:before,
@@ -396,16 +398,17 @@ textarea.input{
   }
   
   .text {
-    color: #333;
+    color: rgb(255, 255, 255);
     margin: 1.5rem 0 2rem 0;
+    font-size: larger;
   }
   
   .information {
     display: flex;
-    color: #555;
-    margin: 0.7rem 0;
-    align-items: center;
-    font-size: 0.95rem;
+    color: rgb(255, 255, 255);
+    margin: 0.8rem 0;
+    align-items: right;
+    font-size: larger;
   }
   
   .icon {
@@ -415,10 +418,13 @@ textarea.input{
   
   .social-media {
     padding: 2rem 0 0 0;
+;
   }
   
   .social-media p{
-    color: #333;
+    color: rgb(255, 250, 250);
+    font-size: larger;
+    text-align: left;
   }
   
   .social-icons {
@@ -430,7 +436,7 @@ textarea.input{
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    background: linear-gradient(45deg, #1abc9c7e, #1492799a);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -459,7 +465,7 @@ textarea.input{
     width: 470px;
     height: 470px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #7a9094, #20d8b9);
+    background: linear-gradient(to bottom, #a6c2c769, #5fd8c452);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
@@ -482,7 +488,7 @@ textarea.input{
     top: 50%;
     left: 50%;
     transform: translate(181%, 11%);
-    opacity: 0.2;
+    opacity: 1;
   }
   
   @media (max-width: 850px) {
@@ -572,4 +578,29 @@ textarea.input{
     }
   }
   }
+
+  .footer{
+    background-color: rgba(41, 121, 131, 0.883);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.footer p{
+    font-size: 24px;
+}
+
+.icons{
+color: rgb(0, 26, 255);
+font-size: 30px;
+}
+
   

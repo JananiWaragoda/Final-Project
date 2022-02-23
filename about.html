@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -93,7 +92,7 @@
 
     
     <h1 class="color" style="text-align:center; padding-top: 100px; text-transform: uppercase;">Our Mission </h1>       
-    <p class="align" style="text-align: center; padding-top: 20px; padding-bottom: 60px;"> "Contribute to the sustainable development of education by  imparting knowledge to <br/>the  children of all walks of life around the world and enhancing their knowledge <br/> through the provision of online quizzes and related books." </p>
+    <p class="align" style="text-align: center; padding-top: 20px; padding-bottom: 60px;"> "Contribute to the sustainable development of education by  imparting knowledge to <br>the  children of all walks of life around the world and enhancing their knowledge <br> through the provision of online quizzes and related books." </p>
 
 
     <div class="container">
@@ -210,6 +209,41 @@
             </div>
         </div>
     </div>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+    
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+    
+        function hidemenu(){
+            navLinks.style.right = "-200";
+        }
+
+
+
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+        {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } else {
+        mybutton.style.display = "none";
+        }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0; 
+        }
+    
+    </script>
+
 </body>
 
 <!-- footer -->
