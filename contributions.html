@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contributions</title>
+        <link rel="stylesheet" href="contributions.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+    </head>
+    <body>
+        <section class="header">
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">⌃</button>
+
+            <nav>
+                <a href="index.html"><img src="Images/Academy root LOGO white .png"></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+
+                    <ul>
+                        
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="">QUIZ LAB ▾</a>
+                            <ul>
+                                <li><a href="C.html">Programming in C</a></li>
+                                <li><a href="JAVA.html">Java</a></li>
+                                <li><a href="HTML.html">HTML</a></li>
+                                <li><a href="DBMS.html">DBMS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="library.html">LIBRARIES</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                        
+                    </ul>
+                </div>
+                    <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+            </nav>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+        
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+        
+            function hidemenu(){
+                navLinks.style.right = "-200";
+            }
+    
+    
+    
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() 
+            {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+            }
+    
+    
+            function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+            }
+        
+        </script>
+
+
+
+
+
+
+
+
+ <section class="footer">
+            <h1>Academy Root</h1>
+            <p>A Great Place To Learn</p>
+        <div class="icons">
+           <i class="fab fa-facebook" aria-hidden="true"></i>
+           <i class="fab fa-twitter" aria-hidden="true"></i>
+           <i class="fab fa-instagram" aria-hidden="true"></i>
+           <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>AcademyRoot<i class="far fa-copyright" aria-hidden="true"></i><br>All Rights Reserved </p>
+
+ </section>
