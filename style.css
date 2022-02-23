@@ -13,6 +13,14 @@
     background-size: cover;
     position: relative;
 }
+.header p{
+    font-size:35px;
+    text-align: center; 
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;   
+}
 
 
 nav{
