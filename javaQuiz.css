@@ -391,3 +391,25 @@ h1{
                 flex-direction: column;
     }
 }
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 20px; 
+    width: 50px;
+    z-index: 100; 
+    border: none;
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.255); 
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+#myBtn:hover {
+    background-color: rgb(57, 53, 58); 
+    transition: 0.8s;
+}

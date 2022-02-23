@@ -103,7 +103,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 600px)
+@media(max-width: 950px)
 {
     nav img{
         width: 235px; 
