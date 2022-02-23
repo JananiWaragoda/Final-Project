@@ -272,6 +272,7 @@ p.align{
     width: 100%;
     padding-bottom: 100px;
     /* background:#f2f3f7; */
+    transition: 0.8s;
 }
 
 .team-container{
@@ -279,6 +280,8 @@ p.align{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+
 }
 .team-container .card{
 
@@ -289,6 +292,7 @@ p.align{
     background: #f2f3f7;
     box-shadow: 0.6em 0.6em 1.2em #d2dcd9,
                 -0.5em -0.5em 1em #ffffff;
+    border-radius: 12px;
 }
 
 .team-container .card .team-content{
@@ -310,7 +314,6 @@ p.align{
     line-height: 0.9;
     padding-bottom: 5px;
 }
-
 
 
 
