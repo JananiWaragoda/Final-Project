@@ -13,14 +13,18 @@
     background-size: cover;
     position: relative;
 }
-.header p{
-    font-size:35px;
-    text-align: center; 
-    color: #fff;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;   
-}
+.header h1{
+
+    font-size: 120px ;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ .header p{
+     font-size:50px;
+     text-align: center; 
+     color: #fff; 
+ }
 
 
 nav{
