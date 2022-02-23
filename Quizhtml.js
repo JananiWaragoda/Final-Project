@@ -36,7 +36,7 @@ var app={
         },
         {
             q:'Apart from <b> tag, what other tag makes text bold ?', 
-            options:['<fat>','<strong>','<black>','<emp>'],
+            options:['fat','strong','black','emp'],
             answer:1,
         },
         {
@@ -51,12 +51,12 @@ var app={
         },
         {
             q:'What should be the first tag in any HTML document?', 
-            options:['<head>','<title>','<html>','<document>'],
+            options:['head','title','html','document'],
             answer:3,
         },
         {
             q:'How can you make a bulleted list with numbers?', 
-            options:['<dl>','<ol>','<list>','<ul>'],
+            options:['dl','ol','list','ul'],
             answer:2,
         },
     ],
