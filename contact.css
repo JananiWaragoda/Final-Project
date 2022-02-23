@@ -231,6 +231,7 @@ nav .fa{
     padding-right: 7px;
     padding-left: 7px;
     font-size: larger;
+    width: 80%;
     
 }
 
@@ -262,18 +263,18 @@ position: absolute;
      position:  absolute;
      width:26px;
      height: 26px;
-    background-color:  #1abc9c63 ;
+     background-color:  #1abc9c63 ;
     transform: rotate(45deg);
      top :50px;
      left: -13px;
+     z-index: 1000;
 
 }
 
 form{
-  border-radius: 15px;
- width: 100%;
- align-items: flex-end;
- padding: 30px 30px;
+ border-radius: 15px;
+ align-items: right;
+ padding: 10px 15px;
  z-index: 1000;
  overflow: hidden;
  position: relative;    
@@ -459,20 +460,7 @@ form{
   .social-icons a:hover {
     transform: scale(1.05);
   }
-  
-  .contact-info:before {
-    content: "";
-    position: absolute;
-    width: 110px;
-    height: 100px;
-    border: 22px solid #1abc9c71;
-    border-radius: 50%;
-    bottom: -77px;
-    right: 50px;
-    opacity: 0.3;
-  }
-  
-
+ 
   
   .square {
     position: absolute;
@@ -486,6 +474,7 @@ form{
   @media (max-width: 850px) {
     .form {
       grid-template-columns: 1fr;
+      flex-direction: column;
     }
   
     .contact-info:before {
@@ -499,6 +488,7 @@ form{
       top: -13px;
       left: initial;
       right: 70px;
+
     }
   
     .square {
@@ -513,7 +503,29 @@ form{
     .social-media {
       padding: 1.5rem 0 0 0;
     }
+    .header h1{
+
+      font-size: 60px ;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+   }
+   .header p{
+       font-size:30px;
+       text-align: center; 
+       color: #fff; 
+   }
+
+   .info p{
+     font-size: 15px;
+   }
+   .info img{
+     
+     width: 20px;
+   }
+   
   
+  }
 
 
   @media (max-width: 480px) {
@@ -561,8 +573,15 @@ form{
     .btn {
       padding: 0.45rem 1.2rem;
     }
+    .info p{
+      font-size: 12px;
+    }
+    .info img{
+      
+      width: 14px;
+    }
   }
-  }
+
 
   .footer{
     background-color: rgba(41, 121, 131, 0.883);
