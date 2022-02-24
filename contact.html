@@ -103,7 +103,7 @@
                 
           <div class="contact-form">
 
-            <form onsubmit="sendemail()">
+            <form onsubmit="sendemail() ; reset(); return false">
          <form action="contact.html" autocomplete="off">
              <h3 class="title">Contact us</h3>
              
@@ -195,14 +195,17 @@
     function sendemail(){
         Email.send({
     Host : "smtp.yourisp.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    Username : "academyroot22@gmail.com ",
+    Password : "0716325422",
+    To : ' academyroot22@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact form Enquiry",
+    Body : "Name:"+ document.getElementById("name").value
+       +"<br> Email: " + document.getElementById("email").value
+       +"<br> Phone no:"+ document.getElementById("phone").value
+       +"<br> Massage:"+ document.getElementById("message").value
 }).then(
-  message => alert(message)
+  message => alert("massage sent sucseccfully")
 );
 
     }
