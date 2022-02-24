@@ -356,7 +356,7 @@ fieldset {
 
 
 .footer{
-    background-color: rgba(41, 121, 131, 0.883);
+    background-color: rgba(167, 184, 187, 0.699);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -371,10 +371,15 @@ fieldset {
 }
 
 .footer p{
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .icons{
-color: rgb(0, 26, 255);
+color: rgb(0, 0, 0);
 font-size: 30px;
+}
+
+
+.footer h1{
+    font-size: 30px;
 }
