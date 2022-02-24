@@ -53,7 +53,8 @@ nav img{
     content: "";
     width: 0%;
     height: 4px;
-    background: #130047;
+    background:#20dddd;
+
     display: block;
     margin: auto;
     transition: 0.5s;
