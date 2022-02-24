@@ -26,6 +26,16 @@
      color: #fff; 
  }
 
+h1.color{
+    color:black;
+    font-size:70px ;
+    
+    }
+    
+p.align{
+        font-size: 30px;   
+    }
+
 
 nav{
     display: flex;
